@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+    <server Port="14000"
+            ID="4000"
+            MaxUser="100"
+            MaxConnect="100"
+            MaxAccept="100"
+            MaxRecv="100"
+            MaxSend="100"
+            CCode="130"
+            Version="20180408"
+            RecvOne="8"
+            RecvMax="64"
+            SendOne="8"
+            SendMax="64"
+            HeartTime="60"
+            AutoSave="30"
+            SafeCode="yifeimm"
+            Head="DE"/>
+</root>

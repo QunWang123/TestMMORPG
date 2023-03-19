@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+    <server Port="14100"
+            ID="4100"
+            MaxUser="1000"
+            MaxConnect="1000"
+            CCode="130"
+            Version="20210803"
+            ReceMax="100"
+            HeartTimeMax="20"
+            HeartTime="4"
+            AutoTime="5"
+            SafeCode="testcode"
+            Head="DE"/>
+</root>

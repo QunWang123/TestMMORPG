@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+    <gamedb Port="3306"
+            IP="127.0.0.1"
+            UserName="root"
+            UserPass="123"
+            DBName="rpg_gamedata"/>
+    <accountdb Port="3306"
+            IP="127.0.0.1"
+            UserName="root"
+            UserPass="123"
+            DBName="rpg_account"/>
+</root>

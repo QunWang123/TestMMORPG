@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GB2312"?>
+<root>
+    <client 
+          MaxUser="30"
+          MaxConnect="30"
+          CCode="130"
+          Version="20210803"
+          ReceMax="100"
+           HeartTimeMax="20"
+          HeartTime="5"
+          AutoTime="5"
+          SafeCode="testcode"
+          Head="DE"/>
+    <server num="0"/>
+    <client1 IP="127.0.0.1" Port="9000" ID="1000" Type="DB"/>
+    <client2 IP="127.0.0.1" Port="13580" ID="1000" Type="DB"/>
+    <client3 IP="127.0.0.1" Port="13550" ID="1000" Type="DB"/>
+
+</root>

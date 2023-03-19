@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="share">
+      <UniqueIdentifier>{bc94032f-fa10-4801-aea8-bcf502a902a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine">
+      <UniqueIdentifier>{2bcfe8ad-1c63-4b86-a06f-414fed2e7bba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="share\tinyxml">
+      <UniqueIdentifier>{2f539bc7-f178-40f1-beb6-057aad7e000a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="app">
+      <UniqueIdentifier>{88c19bcd-c8e9-4655-a6fd-0fe95f2f0cb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\UDP">
+      <UniqueIdentifier>{0211d7ff-a016-43bf-9c64-70fb717085c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\UDP\KCP">
+      <UniqueIdentifier>{9e006b20-3576-43c8-9a37-1f8a679476c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="engine\TCP">
+      <UniqueIdentifier>{dbfcc97c-f993-4d8d-9c4d-f7357c5aae57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\share\tinyxml\tinystr.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinyxml.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlerror.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\tinyxmlparser.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\tinyxml\md5.cpp">
+      <Filter>share\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\share\ShareFunction.cpp">
+      <Filter>share</Filter>
+    </ClCompile>
+    <ClCompile Include="AppGlobal.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppManager.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\IOPool.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GateServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppLogin.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSelectRole.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppEnterWorld.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppMove.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSkill.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppRobot.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppGate.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppDrop.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppBag.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppChat.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppSkill_Udp.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="AppCopy.cpp">
+      <Filter>app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\INetBase_Udp.cpp">
+      <Filter>engine\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\ikcp.c">
+      <Filter>engine\UDP\KCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\TCPClient.cpp">
+      <Filter>engine\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\TCPClient_Func.cpp">
+      <Filter>engine\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\TCPClient_Thread.cpp">
+      <Filter>engine\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\TCPServer.cpp">
+      <Filter>engine\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\TCPServer_Func.cpp">
+      <Filter>engine\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\TCPServer_Thread.cpp">
+      <Filter>engine\TCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\UdpClient.cpp">
+      <Filter>engine\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\UdpClient_Funs.cpp">
+      <Filter>engine\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\UdpClient_Kcp.cpp">
+      <Filter>engine\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\UdpClient_Thread.cpp">
+      <Filter>engine\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\UdpServer.cpp">
+      <Filter>engine\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\UdpServer_Funs.cpp">
+      <Filter>engine\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\UdpServer_Kcp.cpp">
+      <Filter>engine\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\UdpServer_Thread.cpp">
+      <Filter>engine\UDP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\engine\INetBase.cpp">
+      <Filter>engine\TCP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\share\tinyxml\tinystr.h">
+      <Filter>share\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\tinyxml\tinyxml.h">
+      <Filter>share\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\tinyxml\md5.h">
+      <Filter>share\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\ShareFunction.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGlobal.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="AppManager.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\IContainer.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\IOPool.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="AppLogin.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\UserData.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldData.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\CommandData.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSelectRole.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="AppEnterWorld.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="AppMove.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="AppSkill.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="AppRobot.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="AppGate.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="AppDrop.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="AppBag.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\share\CommandData2.h">
+      <Filter>share</Filter>
+    </ClInclude>
+    <ClInclude Include="AppChat.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCopy.h">
+      <Filter>app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\IDefine_Udp.h">
+      <Filter>engine\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\INetBase_Udp.h">
+      <Filter>engine\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\ikcp.h">
+      <Filter>engine\UDP\KCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\TCPClient.h">
+      <Filter>engine\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\TCPServer.h">
+      <Filter>engine\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\UdpClient.h">
+      <Filter>engine\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\UdpServer.h">
+      <Filter>engine\UDP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\IDefine.h">
+      <Filter>engine\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\INetBase.h">
+      <Filter>engine\TCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\engine\KcpInterface.h">
+      <Filter>engine\UDP\KCP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\exe\config_client.xml" />
+    <Xml Include="..\exe\config_server.xml" />
+  </ItemGroup>
+</Project>

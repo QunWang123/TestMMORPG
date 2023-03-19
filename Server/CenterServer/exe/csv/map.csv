@@ -1,0 +1,5 @@
+id,maptype,x,y,player,level,difficulty,win,limittime,mapname,high,isreborn
+1,0,1,2,0,1,1,4,10,map_1,6132,1
+2,0,1,2,0,1,1,0,0,map_2,0,1
+101,1,2,3,1,1,2,5,30,ActionRPG_P,1000,1
+102,2,3,4,4,1,3,6,30,ActionRPG_P,1000,1
